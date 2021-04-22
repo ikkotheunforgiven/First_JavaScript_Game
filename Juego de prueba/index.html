@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./js/gamemanager.js"></script>
+    <script src="./js/player.js"></script>
+    <script src="./js/enemy.js"></script>
+    <title>Mi primer Battle Arena</title>
+</head>
+<body>
+    <div class="header">
+        <p>Battle Arena</p>
+        <h2>Elige personaje:</h2>
+    </div>
+
+    <div class="interface">
+        <a href="#" onclick="GameManager.setGameStart('Warrior')">
+            <img src="img/avatar-player/warrior.png" alt="warrior">
+            <div>
+                <h3>Warrior</h3>
+                <p>El guerrero es Shovel Knight. Este guerrero derrota a sus enemigos con su pala.</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Rogue')">
+            <img src="img/avatar-player/rogue.png" alt="rogue">
+            <div>
+                <h3>Rogue</h3>
+                <p>El bandido es Link. Es el aventurero más famoso de Hyrule y su misión es derrotar a Ganondorf junto a la princesa Zelda.</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Tank')">
+            <img src="img/avatar-player/tank.png" alt="tank">
+            <div>
+                <h3>Tank</h3>
+                <p>El tanque es Kirby. Este pequeño amiguito es capaz de absorber a sus enemigos para adquirir sus habilidades.</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Mage')">
+            <img src="img/avatar-player/mage.png" alt="mage">
+            <div>
+                <h3>Mage</h3>
+                <p>El mago es un medico de la peste. Este mago esta especializado en la magia oscura.</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="actions">
+
+    </div>
+
+    <div class="arena">
+
+    </div>
+
+    <div class="enemy">
+
+    </div>
+</body>
+</html>
